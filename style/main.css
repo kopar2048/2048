@@ -2,13 +2,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  background: #E2C00D;
+  background-image: url('../style/tile-sets/textura.jpg'); 
+  color: #1436BD;
+  font-family: cursive ;
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 5px 0; }
 
 .heading:after {
   content: "";
@@ -59,7 +60,7 @@ h1.title {
   height: 25px;
   line-height: 47px;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 1px;
   color: white;
   margin-top: 8px;
   text-align: center; }
@@ -313,58 +314,52 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background: url('../style/tile-sets/2.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background: url('../style/tile-sets/4.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background: url('../style/tile-sets/8.jpg');}
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    background: url('../style/tile-sets/16.jpeg');}
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    background: url('../style/tile-sets/32.jpg');}
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    background: url('../style/tile-sets/64.jpg');}
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
+    background: url('../style/tile-sets/128.jpeg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
+    background: url('../style/tile-sets/256.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
+    background: url('../style/tile-sets/512.jpg');
     color: #f9f6f2;
-    background: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
+    background:  url('../style/tile-sets/1024.jpg');
     color: #f9f6f2;
-    background: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
+    background: url('../style/tile-sets/2048.jpg');
     color: #f9f6f2;
-    background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -500,7 +495,11 @@ hr {
   float: right; }
 
 .game-explanation {
-  margin-top: 50px; }
+  color: #E6C30C;
+  margin-top: 50px;
+  font-size: 10px
+  text-align: center;
+  padding: 0 500px; }
 
 @media screen and (max-width: 520px) {
   html, body {
@@ -511,10 +510,12 @@ hr {
     padding: 0 20px; }
 
   h1.title {
+    color: #E6C30C;
     font-size: 27px;
     margin-top: 15px; }
 
   .container {
+    color: #E6C30C;
     width: 280px;
     margin: 0 auto; }
 
@@ -703,9 +704,11 @@ hr {
     font-size: 35px; }
 
   .game-message p {
+    color: #E6C30C;
     font-size: 30px !important;
     height: 30px !important;
     line-height: 30px !important;
     margin-top: 90px !important; }
   .game-message .lower {
+    color: #E6C30C;
     margin-top: 30px !important; } }
